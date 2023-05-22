@@ -6526,6 +6526,13 @@ let cards = [
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: 'Moving Bits Square',
+    pageLink: './Art/Obafunshy/index.html',
+    imageLink: './Art/Obafunshy/boxbit.gif',
+    author: 'Obafunshy',
+    githubLink: 'https://github.com/obafunshy'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

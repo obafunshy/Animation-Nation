@@ -1,0 +1,43 @@
+.box1 {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid black;
+    position: relative;
+    animation: mymove 5s infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 900px;}
+  }
+
+.box2 {
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    position: relative;
+    animation: secondbox 10s infinite;
+}
+
+@keyframes secondbox {
+    from{left: 0px;}
+    to{left: 1100px;}
+}
+
+.box3 {
+    width: 250px;
+    height: 300px;
+    background-color: green;
+    border: 1px solid black;
+    position: relative;
+    animation: thirdbox 2s infinite;
+}
+
+@keyframes thirdbox {
+    from{left: 1200px;}
+    to{left: 0px;}
+}
